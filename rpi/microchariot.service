@@ -1,0 +1,13 @@
+[Unit]
+Description=microchariot
+Wants=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/microchariot/startup.sh
+Restart=on-failure
+RestartSec=10
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target

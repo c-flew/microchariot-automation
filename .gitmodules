@@ -1,0 +1,6 @@
+[submodule "submodules/sea-current"]
+	path = submodules/sea-current
+	url = https://github.com/turtle-robotics/sea-current
+[submodule "submodules/NASA-IMU-Wrapper"]
+	path = submodules/NASA-IMU-Wrapper
+	url = https://github.com/AbhinavPeri/NASA-IMU-Wrapper
